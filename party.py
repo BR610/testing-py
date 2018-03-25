@@ -164,7 +164,7 @@ def rsvp():
         flash("Sorry, Mel. This is kind of awkward.")
         return redirect("/")
 
-
+print "This is '__name__': ", __name__
 if __name__ == "__main__":
     app.debug = True
     app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
